@@ -16,16 +16,14 @@ main {
     flex-direction: column;
 }
 
-h2 {
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
 
 #table {
     border: solid black 3px;
+    margin: 20px;
+    text-align: center;
+}
+
+#dice {
     margin: 20px;
 }
 
@@ -37,19 +35,25 @@ h3 {
 
 .player {
     width: 300px;
+    text-align: center;
 }
 
-#player1 {
+.coins {
+    text-align: center;
+    margin:20px;
+}
+
+#playerOne {
     border: solid black 3px;
     margin:0 auto;
 }
 
-#player2 {
+#playerTwo {
     border: solid black 3px;
     
 }
 
-#player3 {
+#playerThree {
     border: solid black 3px;
 
 }
