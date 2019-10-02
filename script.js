@@ -10,7 +10,12 @@ document.querySelector('button').addEventListener('click', (e) => {
     }
     if (randomDiceOneValue === 'L') {
         console.log('pass coin one left!')
-        
+        let playerOneArray = playerOne.coins
+        playerOneArray.pop()
+        let playerTwoArray = playerTwo.coins
+        playerTwoArray.push(' X')
+        document.querySelector('#playerOneCoins').innerText = playerOne.coins
+        document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
     }
     if (randomDiceOneValue === 'R') {
         console.log('pass coin one right!')
@@ -59,5 +64,3 @@ document.querySelector('#playerTwoCoins').innerText = playerOne.coins
 
 // assigns my array of coins to playerThreeCoins div
 document.querySelector('#playerThreeCoins').innerText = playerOne.coins
-
-
