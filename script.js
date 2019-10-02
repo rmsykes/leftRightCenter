@@ -1,16 +1,18 @@
 
-// Below is click event for player one button ////////////////////////////////////
+
+
+//////////////////////////////////// Click event for Player1 to Roll Dice  ////////////////////////////////
 document.querySelector('#buttonOne').addEventListener('click', (e) => {
 
-    // Dice One
+    /////////////////////////////// Player1 Dice1 Roll //////////////////////////////////
     let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
     let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
     document.querySelector('#diceOne').innerHTML = randomDiceOneValue
     if (randomDiceOneValue === '*') {
-        console.log('keep coin one!')
+        console.log('Keep a coin!')
     }
     if (randomDiceOneValue === 'L') {
-        console.log('pass coin one left!')
+        console.log('Pass a coin left!')
         let playerOneArray = playerOne.coins
         playerOneArray.pop()
         let playerTwoArray = playerTwo.coins
@@ -19,7 +21,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
     }
     if (randomDiceOneValue === 'R') {
-        console.log('pass coin one right!')
+        console.log('Pass a coin right!')
         let playerOneArray = playerOne.coins
         playerOneArray.pop()
         let playerThreeArray = playerThree.coins
@@ -28,7 +30,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         document.querySelector('#playerThreeCoins').innerText = playerThree.coins
     }
     if (randomDiceOneValue === 'C') {
-        console.log('pass coin one center!')
+        console.log('Pass a coin to the center!')
         let playerOneArray = playerOne.coins
         playerOneArray.pop()
         let coinCenterArray = coinCenter.coins
@@ -37,15 +39,15 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         document.querySelector('#coinCenter').innerText = coinCenter.coins
     }
 
-    // Dice Two
+    /////////////////////////////// Player1 Dice2 Roll //////////////////////////////////
     let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
     let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
     document.querySelector('#diceTwo').innerHTML = randomDiceTwoValue
     if (randomDiceTwoValue === '*') {
-        console.log('keep coin two!')
+        console.log('Keep a coin!')
     }
     if (randomDiceTwoValue === 'L') {
-        console.log('pass coin two left!')
+        console.log('Pass a coin left!')
         let playerOneArray = playerOne.coins
         playerOneArray.pop()
         let playerTwoArray = playerTwo.coins
@@ -54,7 +56,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
     }
     if (randomDiceTwoValue === 'R') {
-        console.log('pass coin two right!')
+        console.log('Pass a coin right!')
         let playerOneArray = playerOne.coins
         playerOneArray.pop()
         let playerThreeArray = playerThree.coins
@@ -63,7 +65,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         document.querySelector('#playerThreeCoins').innerText = playerThree.coins
     }
     if (randomDiceTwoValue === 'C') {
-        console.log('pass coin two center!')
+        console.log('Pass a coin to the center!')
         let playerOneArray = playerOne.coins
         playerOneArray.pop()
         let coinCenterArray = coinCenter.coins
@@ -72,15 +74,15 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         document.querySelector('#coinCenter').innerText = coinCenter.coins
     }
 
-    // Dice Three
+    /////////////////////////////// Player1 Dice3 Roll //////////////////////////////////
     let diceThreeValues = ['L', 'R', 'C', '*', '*', '*']
     let randomDiceThreeValue = diceThreeValues[Math.floor(Math.random() * diceThreeValues.length)]
     document.querySelector('#diceThree').innerHTML = randomDiceThreeValue
     if (randomDiceThreeValue === '*') {
-        console.log('keep coin three!')
+        console.log('Keep a coin!')
     }
     if (randomDiceThreeValue === 'L') {
-        console.log('pass coin three left!')
+        console.log('Pass a coin left!')
         let playerOneArray = playerOne.coins
         playerOneArray.pop()
         let playerTwoArray = playerTwo.coins
@@ -89,7 +91,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
     }
     if (randomDiceThreeValue === 'R') {
-        console.log('pass coin three right!')
+        console.log('Pass a coin right!')
         let playerOneArray = playerOne.coins
         playerOneArray.pop()
         let playerThreeArray = playerThree.coins
@@ -98,7 +100,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         document.querySelector('#playerThreeCoins').innerText = playerThree.coins
     }
     if (randomDiceThreeValue === 'C') {
-        console.log('pass coin three center!')
+        console.log('Pass a coin to the center!')
         let playerOneArray = playerOne.coins
         playerOneArray.pop()
         let coinCenterArray = coinCenter.coins
@@ -110,19 +112,19 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
 
 
 
-// Below is click event for player two button ////////////////////////////////////
+//////////////////////////////////// Click event for Player2 to Roll Dice  ////////////////////////////////
 
 document.querySelector('#buttonTwo').addEventListener('click', (e) => {
 
-    // Dice One
+    /////////////////////////////// Player2 Dice1 Roll //////////////////////////////////
     let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
     let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
     document.querySelector('#diceOne').innerHTML = randomDiceOneValue
     if (randomDiceOneValue === '*') {
-        console.log('keep coin one!')
+        console.log('Keep a coin!')
     }
     if (randomDiceOneValue === 'L') {
-        console.log('pass coin one left!')
+        console.log('Pass a coin left!')
         let playerTwoArray = playerTwo.coins
         playerTwoArray.pop()
         let playerOneArray = playerOne.coins
@@ -131,7 +133,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
         document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
     }
     if (randomDiceOneValue === 'R') {
-        console.log('pass coin one right!')
+        console.log('Pass a coin right!')
         let playerTwoArray = playerTwo.coins
         playerTwoArray.pop()
         let playerThreeArray = playerThree.coins
@@ -140,7 +142,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
         document.querySelector('#playerThreeCoins').innerText = playerThree.coins
     }
     if (randomDiceOneValue === 'C') {
-        console.log('pass coin one center!')
+        console.log('Pass a coin to the center!')
         let playerTwoArray = playerTwo.coins
         playerTwoArray.pop()
         let coinCenterArray = coinCenter.coins
@@ -150,14 +152,48 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
     }
 
 
-    // Dice Two
+    /////////////////////////////// Player2 Dice2 Roll //////////////////////////////////
     let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
     let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
     document.querySelector('#diceTwo').innerHTML = randomDiceTwoValue
     if (randomDiceTwoValue === '*') {
-        console.log('keep coin two!')
+        console.log('Keep a coin!')
     }
-    
+    if (randomDiceTwoValue === 'L') {
+        console.log('Pass a coin left!')
+        let playerTwoArray = playerTwo.coins
+        playerTwoArray.pop()
+        let playerOneArray = playerOne.coins
+        playerOneArray.push(' X')
+        document.querySelector('#playerOneCoins').innerText = playerOne.coins
+        document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
+    }
+    if (randomDiceTwoValue === 'R') {
+        console.log('Pass a coin right!')
+        let playerTwoArray = playerTwo.coins
+        playerTwoArray.pop()
+        let playerThreeArray = playerThree.coins
+        playerThreeArray.push(' X')
+        document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
+        document.querySelector('#playerThreeCoins').innerText = playerThree.coins
+    }
+    if (randomDiceTwoValue === 'C') {
+        console.log('Pass a coin to the center!')
+        let playerTwoArray = playerTwo.coins
+        playerTwoArray.pop()
+        let coinCenterArray = coinCenter.coins
+        coinCenterArray.push(' X')
+        document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
+        document.querySelector('#coinCenter').innerText = coinCenter.coins
+    }
+
+
+    /////////////////////////////// Player2 Dice3 Roll //////////////////////////////////
+    let diceThreeValues = ['L', 'R', 'C', '*', '*', '*']
+    let randomDiceThreeValue = diceThreeValues[Math.floor(Math.random() * diceThreeValues.length)]
+    document.querySelector('#diceThree').innerHTML = randomDiceThreeValue
+
+
 
 
 })
