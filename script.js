@@ -13,6 +13,25 @@ document.querySelector('button').addEventListener('click', (e) => {
     let diceThreeValues = ['L', 'R', 'C', '*', '*', '*']
     let randomDiceThreeValue = diceThreeValues[Math.floor(Math.random() * diceThreeValues.length)]
     document.querySelector('#diceThree').innerHTML = randomDiceThreeValue
-
 })
+
+
+let playerOne = {
+    name: 'Player 1',
+    coins: ['x','x','x']
+}
+
+
+let playerTwo = {
+    name: 'Player 2',
+    coins: ['x','x','x']
+}
+
+
+let playerThree = {
+    name: 'Player 3',
+    coins: ['x','x','x']
+}
+
+
 
