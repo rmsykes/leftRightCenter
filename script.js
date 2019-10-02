@@ -229,11 +229,11 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
 //////////////////////////////////// Click event for Player3 to Roll Dice  ////////////////////////////////
 document.querySelector('#buttonThree').addEventListener('click', (e) => {
 
-/////////////////////////////// Player3 Dice1 Roll //////////////////////////////////
+    /////////////////////////////// Player3 Dice1 Roll //////////////////////////////////
     let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
     let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
     document.querySelector('#diceOne').innerHTML = randomDiceOneValue
-    if  (randomDiceOneValue === '*') {
+    if (randomDiceOneValue === '*') {
         console.log('Keep a coin!')
     }
     if (randomDiceOneValue === 'L') {
@@ -264,10 +264,75 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
         document.querySelector('#coinCenter').innerText = coinCenter.coins
     }
 
-    
+    /////////////////////////////// Player3 Dice2 Roll //////////////////////////////////
+    let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
+    let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
+    document.querySelector('#diceTwo').innerHTML = randomDiceTwoValue
+    if (randomDiceTwoValue === '*') {
+        console.log('Keep a coin!')
+    }
+    if (randomDiceTwoValue === 'L') {
+        console.log('Pass a coin left!')
+        let playerThreeArray = playerThree.coins
+        playerThreeArray.pop()
+        let playerTwoArray = playerTwo.coins
+        playerTwoArray.push(' X')
+        document.querySelector('#playerThreeCoins').innerText = playerThree.coins
+        document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
+    }
+    if (randomDiceTwoValue === 'R') {
+        console.log('Pass a coin right!')
+        let playerThreeArray = playerThree.coins
+        playerThreeArray.pop()
+        let playerOneArray = playerOne.coins
+        playerOneArray.push(' X')
+        document.querySelector('#playerThreeCoins').innerText = playerThree.coins
+        document.querySelector('#playerOneCoins').innerText = playerOne.coins
+    }
+    if (randomDiceTwoValue === 'C') {
+        console.log('Pass a coin to the center!')
+        let playerThreeArray = playerThree.coins
+        playerThreeArray.pop()
+        let coinCenterArray = coinCenter.coins
+        coinCenterArray.push(' X')
+        document.querySelector('#playerThreeCoins').innerText = playerThree.coins
+        document.querySelector('#coinCenter').innerText = coinCenter.coins
+    }
 
-
-
+    /////////////////////////////// Player3 Dice2 Roll //////////////////////////////////
+    let diceThreeValues = ['L', 'R', 'C', '*', '*', '*']
+    let randomDiceThreeValue = diceThreeValues[Math.floor(Math.random() * diceThreeValues.length)]
+    document.querySelector('#diceThree').innerHTML = randomDiceThreeValue
+    if (randomDiceThreeValue === '*') {
+        console.log('Keep a coin!')
+    }
+    if (randomDiceThreeValue === 'L') {
+        console.log('Pass a coin left!')
+        let playerThreeArray = playerThree.coins
+        playerThreeArray.pop()
+        let playerTwoArray = playerTwo.coins
+        playerTwoArray.push(' X')
+        document.querySelector('#playerThreeCoins').innerText = playerThree.coins
+        document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
+    }
+    if (randomDiceThreeValue === 'R') {
+        console.log('Pass a coin right!')
+        let playerThreeArray = playerThree.coins
+        playerThreeArray.pop()
+        let playerOneArray = playerOne.coins
+        playerOneArray.push(' X')
+        document.querySelector('#playerThreeCoins').innerText = playerThree.coins
+        document.querySelector('#playerOneCoins').innerText = playerOne.coins
+    }
+    if (randomDiceThreeValue === 'C') {
+        console.log('Pass a coin to the center!')
+        let playerThreeArray = playerThree.coins
+        playerThreeArray.pop()
+        let coinCenterArray = coinCenter.coins
+        coinCenterArray.push(' X')
+        document.querySelector('#playerThreeCoins').innerText = playerThree.coins
+        document.querySelector('#coinCenter').innerText = coinCenter.coins
+    }
 
 })
 
