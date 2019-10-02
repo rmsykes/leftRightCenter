@@ -11,6 +11,11 @@ body {
     margin: 0px auto;
 }
 
+main {
+    display:flex;
+    flex-direction: column;
+}
+
 h2 {
     text-align: center;
 }
@@ -19,7 +24,32 @@ h3 {
     text-align: center;
 }
 
+#table {
+    border: solid black 3px;
+    margin: 20px;
+}
+
 #bottom {
     display: flex;
     justify-content: space-around;
+}
+
+
+.player {
+    width: 300px;
+}
+
+#player1 {
+    border: solid black 3px;
+    margin:0 auto;
+}
+
+#player2 {
+    border: solid black 3px;
+    
+}
+
+#player3 {
+    border: solid black 3px;
+
 }
