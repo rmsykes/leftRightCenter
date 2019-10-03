@@ -21,7 +21,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         /////////////////////////////////// Player1 Dice1 Roll ////////////////////////////////////////////////
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
-        document.querySelector('#diceOne').innerHTML = randomDiceOneValue
+        document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
             console.log('Player 1 keep a coin!')
         }
@@ -52,7 +52,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         /////////////////////////////// Player1 Dice2 Roll //////////////////////////////////////////////////
         let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
-        document.querySelector('#diceTwo').innerHTML = randomDiceTwoValue
+        document.querySelector('#diceTwo').innerText = randomDiceTwoValue
         if (randomDiceTwoValue === '*') {
             console.log('Player 1 keep a coin!')
         }
@@ -83,7 +83,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         /////////////////////////////// Player1 Dice3 Roll //////////////////////////////////////////////////
         let diceThreeValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceThreeValue = diceThreeValues[Math.floor(Math.random() * diceThreeValues.length)]
-        document.querySelector('#diceThree').innerHTML = randomDiceThreeValue
+        document.querySelector('#diceThree').innerText = randomDiceThreeValue
         if (randomDiceThreeValue === '*') {
             console.log('Player 1 keep a coin!')
         }
@@ -122,7 +122,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         /////////////////////////////////// Player1 Dice1 Roll ////////////////////////////////////////////////
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
-        document.querySelector('#diceOne').innerHTML = randomDiceOneValue
+        document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
             console.log('Player 1 keep a coin!')
         }
@@ -153,7 +153,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         /////////////////////////////// Player1 Dice2 Roll //////////////////////////////////////////////////
         let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
-        document.querySelector('#diceTwo').innerHTML = randomDiceTwoValue
+        document.querySelector('#diceTwo').innerText = randomDiceTwoValue
         if (randomDiceTwoValue === '*') {
             console.log('Player 1 keep a coin!')
         }
@@ -191,7 +191,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         /////////////////////////////////// Player1 Dice1 Roll ////////////////////////////////////////////////
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
-        document.querySelector('#diceOne').innerHTML = randomDiceOneValue
+        document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
             console.log('Player 1 keep a coin!')
         }
@@ -264,7 +264,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
         /////////////////////////////// Player2 Dice1 Roll ////////////////////////////////////////////////
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
-        document.querySelector('#diceOne').innerHTML = randomDiceOneValue
+        document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
             console.log('Player 2 keep a coin!')
         }
@@ -295,7 +295,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
         /////////////////////////////// Player2 Dice2 Roll //////////////////////////////////
         let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
-        document.querySelector('#diceTwo').innerHTML = randomDiceTwoValue
+        document.querySelector('#diceTwo').innerText = randomDiceTwoValue
         if (randomDiceTwoValue === '*') {
             console.log('Player 2 keep a coin!')
         }
@@ -326,7 +326,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
         /////////////////////////////// Player2 Dice3 Roll //////////////////////////////////
         let diceThreeValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceThreeValue = diceThreeValues[Math.floor(Math.random() * diceThreeValues.length)]
-        document.querySelector('#diceThree').innerHTML = randomDiceThreeValue
+        document.querySelector('#diceThree').innerText = randomDiceThreeValue
         if (randomDiceThreeValue === '*') {
             console.log('Player 2 keep a coin!')
         }
@@ -364,7 +364,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
         /////////////////////////////// Player2 Dice1 Roll ////////////////////////////////////////////////
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
-        document.querySelector('#diceOne').innerHTML = randomDiceOneValue
+        document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
             console.log('Player 2 keep a coin!')
         }
@@ -395,7 +395,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
         /////////////////////////////// Player2 Dice2 Roll //////////////////////////////////
         let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
-        document.querySelector('#diceTwo').innerHTML = randomDiceTwoValue
+        document.querySelector('#diceTwo').innerText = randomDiceTwoValue
         if (randomDiceTwoValue === '*') {
             console.log('Player 2 keep a coin!')
         }
@@ -433,7 +433,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
         /////////////////////////////// Player2 Dice1 Roll ////////////////////////////////////////////////
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
-        document.querySelector('#diceOne').innerHTML = randomDiceOneValue
+        document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
             console.log('Player 2 keep a coin!')
         }
@@ -507,7 +507,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
         /////////////////////////////// Player3 Dice1 Roll //////////////////////////////////
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
-        document.querySelector('#diceOne').innerHTML = randomDiceOneValue
+        document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
             console.log('Player 3 keep a coin!')
         }
@@ -538,7 +538,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
         /////////////////////////////// Player3 Dice2 Roll //////////////////////////////////
         let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
-        document.querySelector('#diceTwo').innerHTML = randomDiceTwoValue
+        document.querySelector('#diceTwo').innerText = randomDiceTwoValue
         if (randomDiceTwoValue === '*') {
             console.log('Player 3 keep a coin!')
         }
@@ -570,7 +570,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
         /////////////////////////////// Player3 Dice3 Roll //////////////////////////////////
         let diceThreeValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceThreeValue = diceThreeValues[Math.floor(Math.random() * diceThreeValues.length)]
-        document.querySelector('#diceThree').innerHTML = randomDiceThreeValue
+        document.querySelector('#diceThree').innerText = randomDiceThreeValue
         if (randomDiceThreeValue === '*') {
             console.log('Player 3 keep a coin!')
         }
@@ -608,7 +608,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
         /////////////////////////////// Player3 Dice1 Roll //////////////////////////////////
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
-        document.querySelector('#diceOne').innerHTML = randomDiceOneValue
+        document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
             console.log('Player 3 keep a coin!')
         }
@@ -639,7 +639,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
         /////////////////////////////// Player3 Dice2 Roll //////////////////////////////////
         let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
-        document.querySelector('#diceTwo').innerHTML = randomDiceTwoValue
+        document.querySelector('#diceTwo').innerText = randomDiceTwoValue
         if (randomDiceTwoValue === '*') {
             console.log('Player 3 keep a coin!')
         }
@@ -677,7 +677,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
         /////////////////////////////// Player3 Dice1 Roll //////////////////////////////////
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
-        document.querySelector('#diceOne').innerHTML = randomDiceOneValue
+        document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
             console.log('Player 3 keep a coin!')
         }
@@ -730,7 +730,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
 
 
 
-/////////////////////////////////////////////////// Objects ////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////// OBJECTS ////////////////////////////////////////////////////////////
 
 let playerOne = {
     name: 'Player 1',
