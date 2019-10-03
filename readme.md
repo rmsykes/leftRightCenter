@@ -1,8 +1,10 @@
+
 Left, Right, Center!
 
 ![LRC Dice Photo](Photos/LRC-dice-photo.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Game Overview:
 
@@ -15,12 +17,13 @@ Following are the rules for the game, so quickly go through them and begin playi
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
 Rules:
 
 Step 1
 Gather 3 players.
 
-![LRC Dice Photo](Photos/LRC-start-game-photo.png)
+![LRC start game photo](Photos/LRC-start-game-photo.png)
 
 Step 2
 Each player begins with 3 coins. If playing a game rematch, previous winner goes first. Otherwise, oldest player goes first and is player1. Other players are determined by age as well, and assigned to player2 and player3 respectively. 
@@ -28,14 +31,14 @@ Each player begins with 3 coins. If playing a game rematch, previous winner goes
 Step 3
 Player1 rolls dice to begin playing.
 
-![LRC Dice Photo](Photos/LRC-first-roll-photo.png)
+![LRC first roll photo](Photos/LRC-first-roll-photo.png)
 
 Step 4
 There could be four probable outcomes after the dice has been rolled. The dice could either show an L, R, C, or dots(x3).
 
 If any of the dice turns up to be a dot, the player keeps a coin. If any of the dice turns up to be an L, the player gives a coin to the player on the left. If a dice turns out to be R, the player gives a coin to the player on your right. If any of the dice turns out to be a C, the player must place coin coin in the center.
 
-![LRC Dice Photo](Photos/LRC-first-roll-outcome-photo.png)
+![LRC first roll outcome photo](Photos/LRC-first-roll-outcome-photo.png)
 
 Step 5
 Now its player2's turn. Player2 rolls and keeps or passes their coins accordingly, followed by Player3's roll.
@@ -54,6 +57,17 @@ If you would like to play with money, each player should ante-up the same ammoun
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Wireframe
+
+![LRC wireframe screenshot](Photos/Wireframe-screenshot.png)
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Works Cited:
 
