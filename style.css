@@ -33,8 +33,10 @@ main {
     margin: 20px;
     display: flex;
     justify-content: center;
+}
 
-
+#coinCenter {
+    height: 50px;
 }
 
 #bottom {
