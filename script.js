@@ -29,7 +29,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin left!')
             playerOne.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -37,7 +37,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin right!')
             playerOne.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -45,7 +45,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin to the center!')
             playerOne.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -60,7 +60,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin left!')
             playerOne.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -68,7 +68,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin right!')
             playerOne.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -76,7 +76,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin to the center!')
             playerOne.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -91,7 +91,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin left!')
             playerOne.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -99,7 +99,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin right!')
             playerOne.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -107,7 +107,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin to the center!')
             playerOne.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -130,7 +130,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin left!')
             playerOne.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -138,7 +138,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin right!')
             playerOne.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -146,7 +146,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin to the center!')
             playerOne.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -161,7 +161,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin left!')
             playerOne.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -169,7 +169,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin right!')
             playerOne.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -177,7 +177,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Pass a coin to the center!')
             playerOne.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -192,6 +192,8 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
         document.querySelector('#diceOne').innerText = randomDiceOneValue
+        playerOne.coins.pop()
+        playerOne.coins.pop()
         if (randomDiceOneValue === '*') {
             console.log('Player 1 keep a coin!')
         }
@@ -199,7 +201,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin left!')
             playerOne.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -207,7 +209,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin right!')
             playerOne.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -215,7 +217,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             console.log('Player 1 pass a coin to the center!')
             playerOne.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -231,7 +233,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
     }
 
 })
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//-------------------------------------------- End of Player1 Click Event for Dice Roll -------------------------------------------------------------------------------
 
 
 
@@ -244,7 +246,8 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
 
 
 
-//////////////////////////////////// CLICK EVENT - Player2 Roll Dice  ////////////////////////////////////////////
+
+////////////////////////////////////////////// CLICK EVENT - Player2 Roll Dice  ////////////////////////////////////////////
 document.querySelector('#buttonTwo').addEventListener('click', (e) => {
 
 
@@ -272,7 +275,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin left!')
             playerTwo.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -280,7 +283,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin right!')
             playerTwo.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -288,7 +291,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin to the center!')
             playerTwo.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -303,7 +306,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin left!')
             playerTwo.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -311,7 +314,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin right!')
             playerTwo.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -319,7 +322,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin to the center!')
             playerTwo.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -334,7 +337,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin left!')
             playerTwo.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -342,7 +345,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin right!')
             playerTwo.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -350,7 +353,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin to the center!')
             playerTwo.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -372,7 +375,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin left!')
             playerTwo.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -380,7 +383,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin right!')
             playerTwo.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -388,7 +391,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin to the center!')
             playerTwo.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -403,7 +406,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin left!')
             playerTwo.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -411,7 +414,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin right!')
             playerTwo.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -419,7 +422,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin to the center!')
             playerTwo.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -441,7 +444,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin left!')
             playerTwo.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -449,7 +452,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin right!')
             playerTwo.coins.pop()
             let playerThreeArray = playerThree.coins
-            playerThreeArray.push(' X')
+            playerThreeArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
         }
@@ -457,7 +460,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             console.log('Player 2 pass a coin to the center!')
             playerTwo.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -474,7 +477,8 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
 
 
 })
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//-------------------------------------------- End of Player2 Click Event for Dice Roll -------------------------------------------------------------------------------
+
 
 
 
@@ -515,7 +519,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin left!')
             playerThree.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -523,7 +527,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin right!')
             playerThree.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
         }
@@ -531,7 +535,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin to the center!')
             playerThree.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -546,7 +550,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin left!')
             playerThree.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -554,7 +558,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin right!')
             playerThree.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
         }
@@ -562,7 +566,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin to the center!')
             playerThree.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -578,7 +582,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin left!')
             playerThree.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -586,7 +590,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin right!')
             playerThree.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
         }
@@ -594,7 +598,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin to the center!')
             playerThree.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -616,7 +620,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin left!')
             playerThree.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -624,7 +628,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin right!')
             playerThree.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
         }
@@ -632,7 +636,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin to the center!')
             playerThree.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -647,7 +651,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin left!')
             playerThree.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -655,7 +659,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin right!')
             playerThree.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
         }
@@ -663,7 +667,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin to the center!')
             playerThree.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -685,7 +689,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin left!')
             playerThree.coins.pop()
             let playerTwoArray = playerTwo.coins
-            playerTwoArray.push(' X')
+            playerTwoArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
         }
@@ -693,7 +697,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin right!')
             playerThree.coins.pop()
             let playerOneArray = playerOne.coins
-            playerOneArray.push(' X')
+            playerOneArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#playerOneCoins').innerText = playerOne.coins
         }
@@ -701,7 +705,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
             console.log('Player 3 pass a coin to the center!')
             playerThree.coins.pop()
             let coinCenterArray = coinCenter.coins
-            coinCenterArray.push(' X')
+            coinCenterArray.push(' 🔴')
             document.querySelector('#playerThreeCoins').innerText = playerThree.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
@@ -717,7 +721,7 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
 
 
 })
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//-------------------------------------------- End of Player3 Click Event for Dice Roll -------------------------------------------------------------------------------
 
 
 
@@ -734,19 +738,19 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
 
 let playerOne = {
     name: 'Player 1',
-    coins: [' X', ' X', ' X']
+    coins: [' 🔴', ' 🔴', ' 🔴']
 }
 
 
 let playerTwo = {
     name: 'Player 2',
-    coins: [' X', ' X', ' X']
+    coins: [' 🔴', ' 🔴', ' 🔴']
 }
 
 
 let playerThree = {
     name: 'Player 3',
-    coins: [' X', ' X', ' X']
+    coins: [' 🔴', ' 🔴', ' 🔴']
 }
 
 
@@ -754,18 +758,58 @@ let coinCenter = {
     name: 'Coin Center',
     coins: []
 }
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+let dice = {
+    diceEmoji: '🎲',
+    diceOneValues: ['L', 'R', 'C', '*', '*', '*'],
+    diceTwoValues: ['L', 'R', 'C', '*', '*', '*'],
+    diceThreeValues: ['L', 'R', 'C', '*', '*', '*']
+}
+// End of Objects ----------------------------------------------------------------------------------------------------
 
 
 
 
 
-///////////////////////////////// Assings playerOne-Object, Key-Coins, to div-playerOneCoins in HTML////////////////  
+
+
+
+
+
+
+
+////////////////////////////////////////// Assigning JS object values to render in HTML ////////////////////////////////
+
+
+
+
+//////////////////////// Assigns dice-object, diceEmoji-key, to starting screen of game ///////////////////////
+
+// Assigns diceOne-Object, Key-diceEmoji, to div-diceOne in HTML
+document.querySelector('#diceOne').innerText = dice.diceEmoji
+
+// Assigns diceTwo-Object, Key-diceEmoji, to div-diceTwo in HTML
+document.querySelector('#diceTwo').innerText = dice.diceEmoji
+
+// Assigns diceThree-Object, Key-diceEmoji, to div-diceThree in HTML
+document.querySelector('#diceThree').innerText = dice.diceEmoji
+
+//------------------------------------------------------------------------------------------------------------
+
+
+
+
+////////////////////////// Assigns playerOne-object coins-key, to the game ////////////////////////////////////
+
+// Assings playerOne-Object, Key-Coins, to div-playerOneCoins in HTML //////////// 
 document.querySelector('#playerOneCoins').innerText = playerOne.coins
 
-// assigns my array of coins to playerTwoCoins div
-document.querySelector('#playerTwoCoins').innerText = playerOne.coins
+// Assigns my array of coins to playerTwoCoins div ////////////////////////////////
+document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
 
 
-// assigns my array of coins to playerThreeCoins div
-document.querySelector('#playerThreeCoins').innerText = playerOne.coins
+// Assigns my array of coins to playerThreeCoins div //////////////////////////////
+document.querySelector('#playerThreeCoins').innerText = playerThree.coins
+
+//--------------------------------------------------------------------------------------------------------------

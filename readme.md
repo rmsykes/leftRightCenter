@@ -23,10 +23,12 @@ Rules:
 Step 1
 Gather 3 players.
 
-![LRC start game photo](Photos/LRC-start-game-photo.png)
-
 Step 2
 Each player begins with 3 coins. If playing a game rematch, previous winner goes first. Otherwise, oldest player goes first and is player1. Other players are determined by age as well, and assigned to player2 and player3 respectively. 
+
+![LRC start game photo](Photos/LRC-start-game-photo.png)
+
+
 
 Step 3
 Player1 rolls dice to begin playing.
