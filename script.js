@@ -7,6 +7,14 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
 
 
 
+    //////// IF STATEMENT - if the Player 2 & Player 3 are out of coins, Player 1 wins! ////////////////////
+    if (playerTwo.coins.length === 0 && playerThree.coins.length === 0) {
+        alert('Player 1 Wins!')
+    }
+
+
+
+
     //////// IF STATEMENT - if the object playerOne, Key-coins, array length is 3, roll 3 dice ////////////////////
     if (playerOne.coins.length >= 3) {
 
@@ -260,6 +268,14 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
 
 
 
+    //////// IF STATEMENT - if the Player 1 & Player 3 are out of coins, Player 2 wins! ////////////////////
+    if (playerOne.coins.length === 0 && playerThree.coins.length === 0) {
+        alert('Player 2 Wins!')
+    }
+
+
+
+
     //////// IF STATEMENT - if the object playerTwo, Key-coins, array.length is 3, roll 3 dice ////////////////////
     if (playerTwo.coins.length >= 3) {
 
@@ -509,6 +525,14 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
 
 //////////////////////////////////// CLICK EVENT - Player3 to Roll Dice //////////////////////////////////////
 document.querySelector('#buttonThree').addEventListener('click', (e) => {
+
+
+
+
+    //////// IF STATEMENT - if the Player 1 & Player 3 are out of coins, Player 2 wins! ////////////////////
+    if (playerOne.coins.length === 0 && playerTwo.coins.length === 0) {
+        alert('Player 3 Wins!')
+    }
 
 
 
