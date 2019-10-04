@@ -19,9 +19,10 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
 
 
 
-    //////// IF STATEMENT - if the Player 2 & Player 3 are out of coins, Player 1 wins! ////////////////////
+    //////// IF STATEMENT - if the Player 2 & Player 3 are out of coins, Player 1 wins, and reset page/game ////
     if (playerTwo.coins.length === 0 && playerThree.coins.length === 0) {
-        alert('Player 1 Wins!')
+        alert('Player 1 Wins! Lets Play Again!')
+        window.location.reload();
     }
 
 
@@ -281,9 +282,10 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
 
 
 
-    //////// IF STATEMENT - if the Player 1 & Player 3 are out of coins, Player 2 wins! ////////////////////
+    //////// IF STATEMENT - if the Player 1 & Player 3 are out of coins, Player 2 wins, and reset page/game ////
     if (playerOne.coins.length === 0 && playerThree.coins.length === 0) {
-        alert('Player 2 Wins!')
+        alert('Player 2 Wins! Lets Play Again!')
+        window.location.reload();
     }
 
 
@@ -545,9 +547,10 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
 
 
 
-    //////// IF STATEMENT - if the Player 1 & Player 3 are out of coins, Player 2 wins! ////////////////////
+    //////// IF STATEMENT - if the Player 1 & Player 3 are out of coins, Player 2 wins, and reset page/game ////
     if (playerOne.coins.length === 0 && playerTwo.coins.length === 0) {
-        alert('Player 3 Wins!')
+        alert('Player 3 Wins! Lets Play Again!')
+        window.location.reload();
     }
 
 
