@@ -31,7 +31,7 @@ main {
     background-color: rgba(233, 17, 17, 0.9)
 }
 
-#dice {
+.dice {
     margin: 15px 208px;
     display: flex;
     justify-content: center;
@@ -89,3 +89,18 @@ main {
     margin: 15px 13px 10px 13px;
 }
 
+.diceBorderOrange {
+    border: 5px solid rgba(253, 114, 21, 0.9);
+    color: rgba(253, 114, 21, 0.9)
+}
+
+
+.diceBorderBlue {
+    border: 5px solid rgba(18, 170, 216, 0.9);
+    color:rgba(18, 170, 216, 0.9);
+}
+
+.diceBorderGreen {
+    border: 5px solid rgba(198, 231, 8, 0.9);
+    color: rgba(198, 231, 8, 0.9)
+}

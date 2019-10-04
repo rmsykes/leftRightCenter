@@ -7,6 +7,18 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
 
 
 
+    // Removes previously toggled diceBorder colors 
+    document.querySelector('.dice').classList.remove('diceBorderGreen')
+    document.querySelector('.dice').classList.remove('diceBorderBlue')
+    document.querySelector('.dice').classList.remove('diceBorderOrange')
+    // Changes dice border to player1's color
+    let diceBorder = document.querySelector('.dice')
+    diceBorder.classList.toggle('diceBorderOrange')
+
+
+
+
+
     //////// IF STATEMENT - if the Player 2 & Player 3 are out of coins, Player 1 wins! ////////////////////
     if (playerTwo.coins.length === 0 && playerThree.coins.length === 0) {
         alert('Player 1 Wins!')
@@ -119,6 +131,9 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
     //////// ELSE IF STATEMENT - if the object playerOne, Key-coins, array length is 2, roll 2 dice //////////////
     else if (playerOne.coins.length === 2) {
 
+        // When player 1 has 2 coins, only displays 2 dice rolls by replaceing dice 3 with an empty string
+        document.querySelector('#diceThree').innerText = ''
+
         /////////////////////////////////// Player1 Dice1 Roll ////////////////////////////////////////////////
         let diceOneValues = dice.diceValues
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
@@ -188,6 +203,11 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
 
     //////// ELSE IF STATEMENT - if the object playerOne, Key-coins, array length is 1, roll 1 dice ///////////////
     else if (playerOne.coins.length === 1) {
+
+        // When player 1 has 1 coins, only displays 1 dice roll by replaceing dices 2 & 3 with empty strings
+        document.querySelector('#diceThree').innerText = ''
+        document.querySelector('#diceTwo').innerText = ''
+
         /////////////////////////////////// Player1 Dice1 Roll ////////////////////////////////////////////////
         let diceOneValues = dice.diceValues
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
@@ -247,6 +267,16 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
 
 ////////////////////////////////////////////// CLICK EVENT - Player2 Roll Dice  ////////////////////////////////////////////
 document.querySelector('#buttonTwo').addEventListener('click', (e) => {
+
+
+
+    // Removes previously toggled diceBorder colors 
+    document.querySelector('.dice').classList.remove('diceBorderGreen')
+    document.querySelector('.dice').classList.remove('diceBorderBlue')
+    document.querySelector('.dice').classList.remove('diceBorderOrange')
+    // Changes dice border to player2's color
+    let diceBorder = document.querySelector('.dice')
+    diceBorder.classList.toggle('diceBorderBlue')
 
 
 
@@ -362,6 +392,10 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
 
     //////// ELSE IF STATEMENT - if the object playerTwo, Key-coins, array length is 2, roll 2 dice ////////////////////
     else if (playerTwo.coins.length === 2) {
+
+        // When player 2 has 2 coins, only displays 2 dice rolls by replaceing dice 3 with an empty string
+        document.querySelector('#diceThree').innerText = ''
+
         /////////////////////////////// Player2 Dice1 Roll ////////////////////////////////////////////////
         let diceOneValues = dice.diceValues
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
@@ -424,6 +458,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             document.querySelector('#playerTwoCoins').innerText = playerTwo.coins
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
+
     }
 
 
@@ -431,6 +466,11 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
 
     //////// ELSE IF STATEMENT - if the object playerTwo, Key-coins, array length is 1, roll 1 dice ////////////////////
     else if (playerTwo.coins.length === 1) {
+
+        // When player 2 has 1 coins, only displays 1 dice roll by replaceing dices 2 & 3 with empty strings
+        document.querySelector('#diceThree').innerText = ''
+        document.querySelector('#diceTwo').innerText = ''
+
         /////////////////////////////// Player2 Dice1 Roll ////////////////////////////////////////////////
         let diceOneValues = dice.diceValues
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
@@ -491,6 +531,16 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
 
 //////////////////////////////////// CLICK EVENT - Player3 to Roll Dice //////////////////////////////////////
 document.querySelector('#buttonThree').addEventListener('click', (e) => {
+
+
+
+    // Removes previously toggled diceBorder colors 
+    document.querySelector('.dice').classList.remove('diceBorderGreen')
+    document.querySelector('.dice').classList.remove('diceBorderBlue')
+    document.querySelector('.dice').classList.remove('diceBorderOrange')
+    // Changes dice border to player3's color
+    let diceBorder = document.querySelector('.dice')
+    diceBorder.classList.toggle('diceBorderGreen')
 
 
 
@@ -607,6 +657,10 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
 
     //////// ELSE IF STATEMENT - if the object playerThree, Key-coins, array length is 2, roll 2 dice ////////////////////
     else if (playerThree.coins.length === 2) {
+
+        // When player 3 has 2 coins, only displays 2 dice rolls by replaceing dice 3 with an empty string
+        document.querySelector('#diceThree').innerText = ''
+
         /////////////////////////////// Player3 Dice1 Roll //////////////////////////////////
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
@@ -676,6 +730,11 @@ document.querySelector('#buttonThree').addEventListener('click', (e) => {
 
     //////// ELSE IF STATEMENT - if the object playerThree, Key-coins, array length is 1, roll 1 dice ////////////////////
     else if (playerThree.coins.length === 1) {
+
+       // When player 3 has 1 coins, only displays 1 dice roll by replaceing dices 2 & 3 with empty strings
+       document.querySelector('#diceThree').innerText = ''
+       document.querySelector('#diceTwo').innerText = ''
+
         /////////////////////////////// Player3 Dice1 Roll //////////////////////////////////
         let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
