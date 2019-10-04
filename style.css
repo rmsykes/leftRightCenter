@@ -32,10 +32,11 @@ main {
 }
 
 #dice {
-    margin: 20px;
+    margin: 15px 208px;
     display: flex;
     justify-content: center;
     font-size: 40px;
+    border: 5px solid;
 }
 
 #coinCenter {
@@ -76,7 +77,15 @@ main {
     background-color: rgba(198, 231, 8, 0.9);
 }
 
-.red {
-    color: red;
+#diceOne {
+    margin: 15px 13px 10px 13px;
+}
+
+#diceTwo {
+    margin: 15px 13px 10px 13px;
+}
+
+#diceThree {
+    margin: 15px 13px 10px 13px;
 }
 

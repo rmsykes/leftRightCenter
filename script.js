@@ -19,7 +19,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
     if (playerOne.coins.length >= 3) {
 
         /////////////////////////////////// Player1 Dice1 Roll ////////////////////////////////////////////////
-        let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceOneValues = dice.diceValues
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
         document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
@@ -50,7 +50,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
         /////////////////////////////// Player1 Dice2 Roll //////////////////////////////////////////////////
-        let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceTwoValues = dice.diceValues
         let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
         document.querySelector('#diceTwo').innerText = randomDiceTwoValue
         if (randomDiceTwoValue === '*') {
@@ -81,7 +81,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
         /////////////////////////////// Player1 Dice3 Roll //////////////////////////////////////////////////
-        let diceThreeValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceThreeValues = dice.diceValues
         let randomDiceThreeValue = diceThreeValues[Math.floor(Math.random() * diceThreeValues.length)]
         document.querySelector('#diceThree').innerText = randomDiceThreeValue
         if (randomDiceThreeValue === '*') {
@@ -120,7 +120,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
     else if (playerOne.coins.length === 2) {
 
         /////////////////////////////////// Player1 Dice1 Roll ////////////////////////////////////////////////
-        let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceOneValues = dice.diceValues
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
         document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
@@ -151,7 +151,7 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
         /////////////////////////////// Player1 Dice2 Roll //////////////////////////////////////////////////
-        let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceTwoValues = dice.diceValues
         let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
         document.querySelector('#diceTwo').innerText = randomDiceTwoValue
         if (randomDiceTwoValue === '*') {
@@ -189,11 +189,9 @@ document.querySelector('#buttonOne').addEventListener('click', (e) => {
     //////// ELSE IF STATEMENT - if the object playerOne, Key-coins, array length is 1, roll 1 dice ///////////////
     else if (playerOne.coins.length === 1) {
         /////////////////////////////////// Player1 Dice1 Roll ////////////////////////////////////////////////
-        let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceOneValues = dice.diceValues
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
         document.querySelector('#diceOne').innerText = randomDiceOneValue
-        playerOne.coins.pop()
-        playerOne.coins.pop()
         if (randomDiceOneValue === '*') {
             console.log('Player 1 keep a coin!')
         }
@@ -265,7 +263,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
     if (playerTwo.coins.length >= 3) {
 
         /////////////////////////////// Player2 Dice1 Roll ////////////////////////////////////////////////
-        let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceOneValues = dice.diceValues
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
         document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
@@ -296,7 +294,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
         /////////////////////////////// Player2 Dice2 Roll //////////////////////////////////
-        let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceTwoValues = dice.diceValues
         let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
         document.querySelector('#diceTwo').innerText = randomDiceTwoValue
         if (randomDiceTwoValue === '*') {
@@ -327,7 +325,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
         /////////////////////////////// Player2 Dice3 Roll //////////////////////////////////
-        let diceThreeValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceThreeValues = dice.diceValues
         let randomDiceThreeValue = diceThreeValues[Math.floor(Math.random() * diceThreeValues.length)]
         document.querySelector('#diceThree').innerText = randomDiceThreeValue
         if (randomDiceThreeValue === '*') {
@@ -365,7 +363,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
     //////// ELSE IF STATEMENT - if the object playerTwo, Key-coins, array length is 2, roll 2 dice ////////////////////
     else if (playerTwo.coins.length === 2) {
         /////////////////////////////// Player2 Dice1 Roll ////////////////////////////////////////////////
-        let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceOneValues = dice.diceValues
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
         document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
@@ -396,7 +394,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
             document.querySelector('#coinCenter').innerText = coinCenter.coins
         }
         /////////////////////////////// Player2 Dice2 Roll //////////////////////////////////
-        let diceTwoValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceTwoValues = dice.diceValues
         let randomDiceTwoValue = diceTwoValues[Math.floor(Math.random() * diceTwoValues.length)]
         document.querySelector('#diceTwo').innerText = randomDiceTwoValue
         if (randomDiceTwoValue === '*') {
@@ -434,7 +432,7 @@ document.querySelector('#buttonTwo').addEventListener('click', (e) => {
     //////// ELSE IF STATEMENT - if the object playerTwo, Key-coins, array length is 1, roll 1 dice ////////////////////
     else if (playerTwo.coins.length === 1) {
         /////////////////////////////// Player2 Dice1 Roll ////////////////////////////////////////////////
-        let diceOneValues = ['L', 'R', 'C', '*', '*', '*']
+        let diceOneValues = dice.diceValues
         let randomDiceOneValue = diceOneValues[Math.floor(Math.random() * diceOneValues.length)]
         document.querySelector('#diceOne').innerText = randomDiceOneValue
         if (randomDiceOneValue === '*') {
@@ -762,9 +760,7 @@ let coinCenter = {
 
 let dice = {
     diceEmoji: '🎲',
-    diceOneValues: ['L', 'R', 'C', '*', '*', '*'],
-    diceTwoValues: ['L', 'R', 'C', '*', '*', '*'],
-    diceThreeValues: ['L', 'R', 'C', '*', '*', '*']
+    diceValues: ['L', 'R', 'C', '*', '*', '*'],
 }
 // End of Objects ----------------------------------------------------------------------------------------------------
 
