@@ -42,6 +42,8 @@ main {
     justify-content: center;
     font-size: 40px;
     border: 5px solid;
+    gap: 12px;
+    padding: 12px;
 }
 
 #coinCenter {
@@ -62,6 +64,16 @@ main {
 .coins {
     text-align: center;
     margin:20px;
+    min-height: 24px;
+}
+
+.movingCoin {
+    position: fixed;
+    z-index: 10;
+    pointer-events: none;
+    font-size: 24px;
+    line-height: 1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
 }
 
 #playerOne {
@@ -83,15 +95,52 @@ main {
 }
 
 #diceOne {
-    margin: 15px 13px 10px 13px;
+    margin: 0;
 }
 
 #diceTwo {
-    margin: 15px 13px 10px 13px;
+    margin: 0;
 }
 
 #diceThree {
-    margin: 15px 13px 10px 13px;
+    margin: 0;
+}
+
+.diceFace {
+    align-items: center;
+    aspect-ratio: 1;
+    background: radial-gradient(circle at 30% 25%, #ffffff, #f1f1f1 62%, #d9d9d9);
+    border: 3px solid #222;
+    border-radius: 8px;
+    box-shadow: inset -4px -5px 0 rgba(0, 0, 0, 0.12), inset 3px 3px 0 rgba(255, 255, 255, 0.8), 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #111;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    height: 56px;
+    justify-content: center;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    width: 56px;
+}
+
+.diceRoll {
+    animation: diceRoll 280ms ease-out;
+}
+
+@keyframes diceRoll {
+    0% {
+        transform: rotate(-18deg) scale(0.82);
+    }
+
+    70% {
+        transform: rotate(8deg) scale(1.08);
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
 }
 
 .diceBorderOrange {
